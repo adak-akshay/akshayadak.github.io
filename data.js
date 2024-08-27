@@ -113,9 +113,9 @@ var data = {
     ],
     projects: [
         {
-            name: "Project 1",
-            description: "Description of project 1.",
-            link: "https://github.com/akshaykumar-adak/project1"
+            name: "Taxi Management",
+            description: "Taxi Management with Dropwizard",
+            link: "https://github.com/adakakshay/taxiManagement"
         },
         {
             name: "Project 2",

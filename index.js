@@ -77,9 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
         `).join('');
     };
 
-    updateProjects('web-projects', data.projects);
-    updateProjects('software-projects', data.projects); // Assuming similar data for other types
-    updateProjects('android-projects', data.projects);  // Adjust as needed
-    updateProjects('freelance-projects', data.projects); // Adjust as needed
+    updateProjects('backend-projects', data.projects);
 });
 
