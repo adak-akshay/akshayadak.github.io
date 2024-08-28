@@ -96,7 +96,6 @@ function populateSkills(items, id) {
     if (skillsTag) {
         for (let i = 0; i < items.length; i++) {
             const { skillName, color, percentage } = items[i];
-            console.log(`Skill: ${skillName}, Color: ${color}, Percentage: ${percentage}%`);
             const h3 = document.createElement("h3");
             h3.innerHTML = skillName;
 
