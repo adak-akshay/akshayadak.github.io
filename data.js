@@ -1,132 +1,170 @@
-var data = {
-    name: "Akshaykumar Adak",
-    title: "Software Engineer",
-    email: "akshaykumar.adak@gmail.com",
-    phone: "+91 8550987986 / +91 8888585565",
-    linkedIn: "www.linkedin.com/in/adakakshay",
-    about: "Software Engineer with 10+ years of experience in Fintech, Telecom/Networking, and IT services.",
-    technicalSkills: {
-        programmingLanguages: [
-            "Python",
-            "Java",
-            "Shell script",
-            "Unix",
-            "Selenium",
-            "C",
-            "C++"
-        ],
-        frameworks: [
-            "Dropwizard",
-            "SpringBoot",
-            "Django"
-        ],
-        databases: [
-            "MySQL",
-            "MariaDB",
-            "Apache HBase",
-            "MongoDB"
-        ],
-        toolsTechnologies: [
-            "Gitlab CI/CD",
-            "Docker",
-            "Grafana",
-            "WebLogic Server",
-            "Kafka",
-            "RabbitMQ",
-            "Kubernetes",
-            "AWS"
-        ],
-        areasOfInterest: [
-            "Algorithms",
-            "Data Structures"
-        ]
+export const about = [
+    "Hello there, This is Akshaykumar Adak.",
+    "Software Engineer with 10+ years of experience in Fintech, Telecom/Networking, and IT services.",
+    "Eager to apply my technical expertise and in-depth product understanding to drive impactful contributions and exceed expectations in challenging projects.",
+    "Thanks for taking the time to learn a little about me!",
+];
+
+export const skills = [
+    {
+        title: "Programming Languages",
+        skillName: "Python, Java, Shell script, Unix, Selenium, C, C++",
+        color: "1",
+        percentage: "80",
     },
-    workExperience: [
-        {
-            company: "PhonePe",
-            position: "Software Engineer",
-            startDate: "Nov 2018",
-            endDate: "Current",
-            subSections: [
-                {
-                    title: "UPI",
-                    startDate: "January 2022",
-                    endDate: "Present",
-                    responsibilities: [
-                        "Lead a 15-member team and personally engineered critical components of PhonePe's UPI system, enabling seamless handling of over 330 million transactions daily.",
-                        "Took complete project ownership, involving hot and cold stores, HBase, Kafka, RabbitMQ, and MariaDB.",
-                        "Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability, and performance.",
-                        "Maintained existing software systems by identifying and correcting software defects.",
-                        "Promoted experience with Docker, Kubernetes, and Amazon Web Services.",
-                        "Coordinated efficient large-scale software deployments.",
-                        "Led NPCI compliance tasks, managed UPI System, and developed UPI Features, and Wallet Interoperability.",
-                        "Directed cross-team projects like Rupay CC, UPI-Lite, and transaction reconciliation.",
-                        "Utilized GitLab CI/CD, Docker, and Grafana for monitoring, and on-call issue resolution."
-                    ]
-                },
-                {
-                    title: "Recharge & BillPay",
-                    startDate: "Nov 2018",
-                    endDate: "Jan 2022",
-                    responsibilities: [
-                        "Developed and Managed microservices capable of handling over 60 million transactions daily.",
-                        "Delivered the highest earning revenue product of the ecosystem – Rent.",
-                        "Independently managed services like Reminders, AutoPay, Credit Card, Gold, and Gift Cards.",
-                        "Integrated with service providers and led operations and platform teams."
-                    ]
-                }
-            ]
-        },
-        {
-            company: "Infosys Pvt Ltd",
-            position: "Software Engineer",
-            startDate: "Mar 2018",
-            endDate: "Nov 2018",
-            responsibilities: [
-                "Implemented ITIL processes for Change, Problem, Configuration, Incident, and Request Management.",
-                "Configured routers like Cisco and Juniper."
-            ]
-        },
-        {
-            company: "Tech Mahindra Ltd",
-            position: "Software Engineer",
-            startDate: "Jun 2014",
-            endDate: "Mar 2018",
-            responsibilities: [
-                "Specialized in DevOps and networking, including LAN/WAN, MPLS, and routing protocols (EIGRP, OSPF, BGP).",
-                "Administered and monitored WebLogic applications (JDBC, JMS, XML) and built strong customer relationships.",
-                "Experienced in networking, UNIX, Shell scripting, PL/SQL, and Oracle Database.",
-                "Managed WebLogic administration, including building new domains and load balancing."
-            ]
-        }
-    ],
-    education: {
-        degree: "BE, First Class Computer Engineering",
-        institution: "D Y Patil College of Engineering Akurdi, University of Pune",
-        graduationDate: "Jun 2014",
-        grade: "First Class"
+    {
+        title: "Frameworks",
+        skillName: "Dropwizard, SpringBoot, Django",
+        color: "6",
+        percentage: "70",
     },
-    languages: [
-        "English (Proficient)",
-        "Marathi",
-        "Hindi"
-    ],
-    projects: [
+    {
+        title: "Databases",
+        skillName: "MySQL, MariaDB, Apache HBase, MongoDB",
+        color: "4",
+        percentage: "70",
+    },
+    {
+        title: "Tools & Technologies",
+        skillName: "Gitlab CI/CD, Docker, Grafana, WebLogic Server, Kafka, RabbitMQ, Kubernetes, AWS",
+        color: "7",
+        percentage: "70",
+    },
+    {
+        title: "Areas of Interest",
+        skillName: "Algorithms, Data Structures",
+        color: "3",
+        percentage: "80",
+    },
+];
+
+export const projects = {
+    backendProjects: [
         {
-            name: "Taxi Management",
-            description: "Taxi Management with Dropwizard",
-            link: "https://github.com/adakakshay/taxiManagement"
-        },
-        {
-            name: "Project 2",
-            description: "Description of project 2.",
-            link: "https://github.com/akshaykumar-adak/project2"
-        },
-        {
-            name: "Project 3",
-            description: "Description of project 3.",
-            link: "https://github.com/akshaykumar-adak/project3"
+            projectName: "Taxi Management",
+            image: "images/taxi-management.png", // Update this as needed
+            summary: "Developed a taxi management system using Dropwizard.",
+            preview: "https://github.com/adakakshay/taxiManagement",
+            techStack: ["Dropwizard"],
         }
     ]
 };
+
+export const experience = [
+    {
+        title: "PhonePe",
+        duration: "Nov 2018 - Current",
+        subtitle: "Software Engineer",
+        details: [
+            "Lead a 15-member team and personally engineered critical components of PhonePe's UPI system, handling over 330 million transactions daily.",
+            "Took complete project ownership, involving hot and cold stores, HBase, Kafka, RabbitMQ, and MariaDB.",
+            "Worked with software development and testing team members to design and develop robust solutions.",
+            "Promoted experience with Docker, Kubernetes, and AWS.",
+            "Coordinated large-scale software deployments and managed UPI system features.",
+        ],
+        tags: ["HBase", "Kafka", "RabbitMQ", "MariaDB", "Docker", "Kubernetes", "AWS"],
+        icon: "phonepe", // Use an appropriate icon or remove if not applicable
+    },
+    {
+        title: "Infosys Pvt Ltd",
+        duration: "Mar 2018 - Nov 2018",
+        subtitle: "Software Engineer",
+        details: [
+            "Implemented ITIL processes and configured routers like Cisco and Juniper.",
+        ],
+        tags: ["ITIL", "Cisco", "Juniper"],
+        icon: "infosys", // Use an appropriate icon or remove if not applicable
+    },
+    {
+        title: "Tech Mahindra Ltd",
+        duration: "Jun 2014 - Mar 2018",
+        subtitle: "Software Engineer",
+        details: [
+            "Specialized in DevOps and networking, including LAN/WAN, MPLS, and routing protocols.",
+            "Administered WebLogic applications and built strong customer relationships.",
+            "Experienced in UNIX, Shell scripting, PL/SQL, and Oracle Database.",
+        ],
+        tags: ["DevOps", "Networking", "WebLogic", "UNIX", "Shell Scripting"],
+        icon: "techmahindra", // Use an appropriate icon or remove if not applicable
+    },
+];
+
+export const education = [
+    {
+        title: "BE, First Class in Computer Engineering",
+        duration: "Jun 2010 - Jun 2014",
+        subtitle: "D Y Patil College of Engineering Akurdi, University of Pune",
+        details: [],
+        tags: [
+            "Data Structures & Algorithms",
+            "Operating Systems",
+            "Database Management System",
+            "Computer Networks",
+            "Compiler Designing",
+            "Cloud Computing",
+        ],
+        icon: "graduation-cap",
+    },
+];
+
+export const footer = [
+    {
+        label: "Dev Profiles",
+        data: [
+            {
+                text: "LinkedIn",
+                link: "https://www.linkedin.com/in/adakakshay",
+            },
+            {
+                text: "GitHub",
+                link: "https://github.com/adakakshay",
+            },
+            {
+                text: "LeetCode",
+                link: "https://leetcode.com/adakakshay/",
+            },
+        ],
+    },
+    {
+        label: "Resources",
+        data: [
+            {
+                text: "Enable Dark/Light Mode",
+                func: "enableDarkMode()",
+            },
+            {
+                text: "Print this page",
+                func: "window.print()",
+            },
+            {
+                text: "Clone this page",
+                link: "https://github.com/adakakshay/adakakshay.github.io",
+            },
+        ],
+    },
+    {
+        label: "Social Profiles",
+        data: [
+            {
+                text: "LinkedIn",
+                link: "https://www.linkedin.com/in/adakakshay/",
+            },
+            {
+                text: "Twitter",
+                link: "https://twitter.com/adakakshay",
+            },
+            {
+                text: "Buy me a coffee",
+                link: "https://www.buymeacoffee.com/adakakshay",
+            },
+        ],
+    },
+    {
+        label: "copyright-text",
+        data: [
+            "Made with &hearts; by Akshaykumar Adak.",
+            "&copy; No Copyrights. Feel free to use this template.",
+        ],
+    },
+];
 

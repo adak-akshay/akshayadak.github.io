@@ -138,7 +138,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f0f0f0;
+	background-color: #d3d3d3;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -152,7 +152,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #f0f0f0;
+		background-color: #d3d3d3;
 		height: auto;
 	}
 	.resume-content img {
@@ -519,7 +519,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #f0f0f0;
+	background-color: #d3d3d3;
 	z-index: 999;
 	position: fixed;
 }
@@ -666,7 +666,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .hire {
 	padding: 2em;
-	background: #f0f0f0;
+	background: #d3d3d3;
 	color: #000;
 	border-radius: 4px;
 }
@@ -830,7 +830,7 @@ body.offcanvas .colorlib-nav-toggle {
 	position: absolute;
 	display: block;
 	width: 4px;
-	background: #f0f0f0;
+	background: #d3d3d3;
 	top: 20px;
 	bottom: 20px;
 	margin-left: 29px;
@@ -876,7 +876,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-3 {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .timeline-centered
 	.timeline-entry
@@ -902,7 +902,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: #f0f0f0;
+	background: #d3d3d3;
 	color: #000;
 	padding: 1.5em;
 	margin-left: 60px;
@@ -994,10 +994,10 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #ec5453;
 }
 .services.color-3 {
-	border-bottom: 2px solid #f0f0f0;
+	border-bottom: 2px solid #d3d3d3;
 }
 .services.color-3 .icon2 i {
-	color: #f0f0f0;
+	color: #d3d3d3;
 }
 .services.color-4 {
 	border-bottom: 2px solid #a84cb8;
@@ -1088,13 +1088,13 @@ body.offcanvas .colorlib-nav-toggle {
 	border-color: #ec5453 transparent transparent transparent;
 }
 .services.color-3 .icon {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .services.color-3 .icon:before {
-	border-color: transparent transparent #f0f0f0 transparent;
+	border-color: transparent transparent #d3d3d3 transparent;
 }
 .services.color-3 .icon:after {
-	border-color: #f0f0f0 transparent transparent transparent;
+	border-color: #d3d3d3 transparent transparent transparent;
 }
 .services.color-4 .icon {
 	background: #a84cb8;
@@ -1192,13 +1192,13 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .progress-bar.color-3 {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .progress-bar.color-3:after {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .progress-bar.color-3 span {
-	color: #f0f0f0;
+	color: #d3d3d3;
 }
 .progress-bar.color-4 {
 	background: #a84cb8;
@@ -1237,13 +1237,13 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #ec5453;
 }
 .progress-bar.color-8 {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .progress-bar.color-8:after {
-	background: #f0f0f0;
+	background: #d3d3d3;
 }
 .progress-bar.color-8 span {
-	color: #f0f0f0;
+	color: #d3d3d3;
 }
 .progress-bar.color-9 {
 	background: #a84cb8;
@@ -2006,7 +2006,7 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-	background: #f0f0f0;
+	background: #d3d3d3;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -2067,7 +2067,7 @@ ul {
 
 .submenu {
 	display: none;
-	background: #f0f0f0;
+	background: #d3d3d3;
 	font-size: 14px;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -2174,7 +2174,7 @@ span {
 }
 
 :root {
-	--footer-bg: #f0f0f0;
+	--footer-bg: #d3d3d3;
 	--color: #000;
 	--color-smooth: #000;
 	--input-border: #3a456a;
